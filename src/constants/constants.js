@@ -19,7 +19,7 @@ export const projects = [
   },
   {
     title: 'Apni-Geet(Pre-Alpha)',
-    description: "This is one of my dream projects. Although it is just the pre-alpha version of the main project, but it can actually play music. In the process of building this app, I have certain most in demand technologies like TypeScript and AWS Amplify. You can check out this app by clicking the link given in the github documentation",
+    description: "This is one of my dream projects. Although it is just the pre-alpha version of the main project, but it can actually play music. In the process of building this app, I have used certain most in demand technologies like TypeScript and AWS Amplify. You can check out this app by clicking the link given in the github documentation",
       image: '/images/apni-geet.png',
       tags: ['React Native', 'TypeScript', 'GraphQL', 'AWS Amplify'],
     source: 'https://github.com/Ankan002/apni-geet',
