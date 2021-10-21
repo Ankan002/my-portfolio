@@ -35,6 +35,15 @@ export const projects = [
     visit: 'https://wonderful-gates-343590.netlify.app/',
     id: 3,
   },
+  {
+    title: 'Instagram 2.0',
+    description: "This is just a clone of the actual Instagram. But in some ways it is more responsive than the actual one with the use of the brand new Tailwind v3. Along with that we have used Recoil for global state management along with Firebase v9 for the database. Thus in this app you can upload images as well as like and comment in real-time. ",
+    image: '/images/instagram-2-0.png',
+    tags: ['React', 'NextJS', 'Firebase v9', 'Tailwind v3', 'Recoil'],
+    source: 'https://github.com/Ankan002/insta-2.0',
+    visit: 'https://insta-2-0.vercel.app/',
+    id: 3,
+  },
 ];
 
 export const TimeLineData = [
