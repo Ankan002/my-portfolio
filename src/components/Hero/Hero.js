@@ -9,10 +9,10 @@ const Hero = (props) => (
     <LeftSection>
       <SectionTitle main center>
         Welcome To <br />
-        My Portfolio
+        My Diary
       </SectionTitle>
       <SectionText>
-        I am Ankan Bhattacharya currently pursuing Diploma in Computer Science Engineering. With knowledge of Web Development, Mobile Development and intermediate Data Structures and Algorithm, I am here to contribute my 100% focus to an app that has the potential to define the future.
+        I am Ankan Bhattacharya. Believe me I am a programmer and can help you to bring your dream product to the ground reality....
       </SectionText>
       <Button onClick={() => window.location = '#about'}>Learn More</Button>
     </LeftSection>

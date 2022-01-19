@@ -5,6 +5,7 @@ export const Img = styled.img`
   height:100%;
   object-fit: cover;
   overflow: hidden;
+  border-radius: 10px;
 `
 
 export const GridContainer = styled.section`
@@ -105,8 +106,10 @@ export const TagList = styled.ul`
 display: flex;
 justify-content: space-around;
 padding: 2rem;
+flex-wrap: wrap;
 `
 export const Tag = styled.li`
 color: #d8bfbf;
 font-size: 1.5rem;
+margin: 0.8rem;
 `
