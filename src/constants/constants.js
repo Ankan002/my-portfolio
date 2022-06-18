@@ -1,5 +1,15 @@
 export const projects = [
   {
+    title: 'Chit Chats',
+    description: "A chatting app with all the features that you need to communicate with your friends family and even colleagues. A fully realtime chat app that is using MongoDB to store all your chats and memories. You only focus on creating memories & conversations, and we deliver it in real time using socket io. Last but not the least you and your friends are also protected and authenticated using Google OAuth.",
+    image: '/images/chit-chats-page.png',
+    tags: ['React Native', 'NextJS', 'MongoDB', 'Typescript', 'Recoil', 'Firebase', 'Socket IO'],
+    source: 'https://github.com/Ankan002/chit-chats-mobile',
+    visit: 'https://chit-chats.ankan.tech',
+    backend: 'https://github.com/Ankan002/chit-chats-backend',
+    id: 0
+  },
+  {
     title: 'Picture Media',
     description: "This is a full fledged image media app, where you can upload images like that image as well delete  it from your profile. Although the app is not realtime but still it has certain things that work like realtime and the rest is actually well handled. Here I used technologies like NextJS, Recoil for global state management and GraphQL as the Query Language.",
     image: '/images/picture-media-image.png',
@@ -7,7 +17,7 @@ export const projects = [
     source: 'https://github.com/Ankan002/picture-media-web',
     visit: 'https://picture-media.vercel.app',
     backend: 'https://github.com/Ankan002/picture-media-backend',
-    id: 0
+    id: 1
   },
   {
     title: 'Instagram 2.0',
@@ -16,7 +26,7 @@ export const projects = [
     tags: ['React', 'NextJS', 'Firebase v9', 'Tailwind v3', 'Recoil'],
     source: 'https://github.com/Ankan002/insta-2.0',
     visit: 'https://insta-2-0.vercel.app/',
-    id: 1,
+    id: 2,
   },
   {
     title: 'MarkDown-Editor',
@@ -25,7 +35,7 @@ export const projects = [
     tags: ['React'],
     source: 'https://github.com/Ankan002/markdown-editor/tree/main/src',
     visit: 'https://wonderful-gates-343590.netlify.app/',
-    id: 2,
+    id: 3,
   },
   {
     title: 'Apni-Geet(Pre-Alpha)',
@@ -34,7 +44,7 @@ export const projects = [
       tags: ['React Native', 'TypeScript', 'GraphQL', 'AWS Amplify'],
     source: 'https://github.com/Ankan002/apni-geet',
     visit: 'https://apni-geet.netlify.app/',
-    id: 3,
+    id: 4,
   },
   {
     title: 'Tic-Tac-Toe',
@@ -43,7 +53,7 @@ export const projects = [
     tags: ['JavaScript'],
     source: 'https://github.com/Ankan002/Tic-Tac-Toe-JS',
     visit: 'https://ankan002.github.io/Tic-Tac-Toe-JS/',
-    id: 4,
+    id: 5,
   },
   {
     title: 'MERN iDiary',
@@ -52,7 +62,7 @@ export const projects = [
       tags: ['Mongo', 'Express', 'React', 'Node', 'Heroku'],
     source: 'https://github.com/Ankan002/idiary-front',
     visit: 'https://elated-allen-be56a3.netlify.app',
-    id: 5,
+    id: 6,
   },
 ];
 
